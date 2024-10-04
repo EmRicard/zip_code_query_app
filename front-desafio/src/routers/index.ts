@@ -1,5 +1,6 @@
 import { createRouter, type RouteRecordRaw, createWebHashHistory } from "vue-router";
 
+const TelaLoguin = ;
 
 const rotas: RouteRecordRaw[] = [
     {
@@ -7,6 +8,11 @@ const rotas: RouteRecordRaw[] = [
         name: "Home",
         component: () => import("../views/Home.vue"),
     },
+    {
+        path: "/cadastro",
+        name: "cadastro",
+        component: () => import("../views/Cadastro.vue"),
+    }
 ];
 
 const roteador = createRouter({
