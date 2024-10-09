@@ -1,22 +1,18 @@
 <template>
-    <TelaLoguin />
+    <TelaLogin />
 </template>
 
 
 
 <script>
 
-import TelaLoguin from '../components/TelaLoguin.vue';
+import TelaLogin from '../components/TelaLogin.vue';
 import { defineComponent } from '@vue/composition-api';
 
 export default defineComponent({
     name: 'Home',
     components: {
-        TelaLoguin
+        TelaLogin
     }
 });
 </script>
-
-
-
-

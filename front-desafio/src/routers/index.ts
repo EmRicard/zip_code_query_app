@@ -1,6 +1,6 @@
 import { createRouter, type RouteRecordRaw, createWebHashHistory } from "vue-router";
 
-const TelaLoguin = ;
+const TelaLogin = ;
 
 const rotas: RouteRecordRaw[] = [
     {
